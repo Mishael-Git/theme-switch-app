@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"CircularStd" ;
+    src: url("../Assets/fonts/CircularStd-Black.otf");
+}
+@font-face {
+    font-family:"CircularSp";
+    src: url("../Assets/fonts/CircularSpUIv3T-Book.ttf");
+    
+}
+
+@font-face {
+    font-family:"Hiragino-Gothic" ;
+    src: url("../Assets/fonts/Hiragino\ Kaku\ Gothic\ Pro\ W3.otf");
+}
+@font-face {
+    font-family:"Arialn" ;
+    src: url("../Assets/fonts/Arialn.ttf");
+}
+@font-face {
+    font-family:"Helvetica-Neue" ;
+    src: url("../Assets/fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf");
+}
+@font-face {
+    font-family:"Meiryo" ;
+    src: url("../Assets/fonts/Meiryo\ UI\ W53\ Regular.ttf");
+}
+@font-face {
+    font-family:"MSGothic" ;
+    src: url("../Assets/fonts/MS\ Gothic.ttf");
+}
+@font-face {
+    font-family:"helvetica" ;
+    src: url("../Assets/fonts/helvetica-compressed-5871d14b6903a.otf");
+}

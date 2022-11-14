@@ -3,7 +3,7 @@ import { GiMeditation } from "react-icons/gi";
 import { CgProfile, CgDetailsMore } from "react-icons/cg";
 function Navbar() {
   return (
-    <div className="flex items-center bg-slate-100 space-x-11 h-6 ">
+    <div className="flex items-center  space-x-11 h-6 justify-between ">
       <div class="flex bg-slate-400  ">
         <GiMeditation size={20} />
         <p class="font-thin">BREEZ</p>

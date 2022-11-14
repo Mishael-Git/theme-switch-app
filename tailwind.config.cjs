@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*[js, jsx]"],
   theme: {
+    backgroundImage:{
+      'cloud': "url('./images/Cloud.jpg')",
+    },
     extend: {
+     
       fontFamily: {
         CircularStd: ["CircularStd", "sans-serif"],
         CircularSp: ["CircularSp", "sans-serif"],

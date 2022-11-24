@@ -7,7 +7,7 @@ function MiddlerightInfo() {
     setChangeColor(!changeColor)
   }
   return (
-    <div class={`flex flex-col   items-end w-full  justify-end ${(changeColor === true)?'bg-[#fa500c] ': 'bg-slate-900 text-slate-50 font-CircularSp'} `}>
+    <div class={`flex flex-col   items-end w-full  justify-end ${(changeColor === true)?'bg-slate-900 text-slate-50' : ' bg-[#fc7b26]  font-CircularSp'} `}>
       <div class='relative w-[68%]' >
       <h1 className=" font-extrabold text-xl">Meditate Together Online</h1>
       <p>Everything is Better When Shared including Meditation.</p>

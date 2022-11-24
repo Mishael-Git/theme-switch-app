@@ -8,7 +8,7 @@ const handleClick=()=> {
  setChangeColor(!changeColor)
 }
   return (
-    <div className= {`flex items-center  py-1 justify-between sticky object-contain ${(changeColor === true)? 'bg-orange-400 ': '' }`}>
+    <div className= {`flex items-center  py-1 justify-between sticky object-contain ${(changeColor === true)? 'bg-[#cbd5e1] text-slate-900 ': '' }`}>
       <div class="flex bg-slate-400 py-3 px-2 justify-center items-center  ">
         <GiMeditation size={20} />
         <p class="font-thin">BREEZ</p>

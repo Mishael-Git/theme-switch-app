@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-
+import {GoPrimitiveDot} from "react-icons/go"
 function Topleft_info() {
   const [changeColor, setChangeColor]= useState(false)
   //function for handleClick
@@ -23,6 +23,10 @@ const handleClick=()=> {
           >
           Try for free
         </button>
+        <div className="flex flex-row m-1 justify-start items-start  space-x-1 pt-8">
+        <GoPrimitiveDot className="text-[#f54040] bg-[#e76464] rounded-full" />
+        <p class='font-normal text-black text-sm'>Check out our Livestream classes </p>
+        </div>
       </div>
     </div>
   );

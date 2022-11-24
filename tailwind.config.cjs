@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     backgroundImage:{
       'cloud': "url('./images/Cloud.jpg')",
+      
     },
     extend: {
      

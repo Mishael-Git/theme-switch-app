@@ -16,9 +16,12 @@ import profile8 from './Profile8.jpg';
 import profile9 from './Profile9.jpg';
 import profile10 from './Profile10.jpg';
 import profile11 from './Profile11.jpg';
-import profile12 from './Profile12.jpg';
-import profile13 from './Profile13.jpg';
-
+//Profile page images
+import photo1 from './Photo1.jpg';
+import photo2 from './Photo2.jpg';
+import photo3 from './Photo3.jpg';
+import photo4 from './Photo4.jpg';
+import photo5 from './Photo5.jpg';
 
 export {Med1};
 export {Med2};
@@ -37,5 +40,10 @@ export {profile8};
 export {profile9};
 export {profile10};
 export {profile11};
-export {profile12};
-export {profile13};
+
+
+export {photo1};
+export {photo2};
+export {photo3};
+export {photo4};
+export {photo5};

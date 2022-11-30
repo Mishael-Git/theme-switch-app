@@ -1,5 +1,5 @@
 import React from 'react'
-import { profile12, profile13 } from '../Assets/images/Images'
+import { photo1, photo2, photo3, photo4, photo5 } from '../Assets/images/Images'
 
 function ProfilePhotos() {
   return (
@@ -10,11 +10,23 @@ function ProfilePhotos() {
         </div>
         <div className='flex flex-row space-x-8'>
             <div className='w-40 h-32'>
-                <img src={profile12} className='w-full h-full object-contain object-cover'  />
+                <img src={photo1} className='w-full h-full object-contain rounded-xl object-cover'  />
             </div>
 
             <div className='w-40 h-32'>
-                <img src={profile13} className='w-full h-full object-contain object-cover'/>
+                <img src={photo2} className='w-full h-full object-contain rounded-xl object-cover'/>
+            </div>
+
+            <div className='w-40 h-32'>
+                <img src={photo3} className='w-full h-full object-contain rounded-xl object-cover'/>
+            </div>
+
+            <div className='w-40 h-32'>
+                <img src={photo4} className='w-full h-full object-contain rounded-xl object-cover'/>
+            </div>
+
+            <div className='w-40 h-32'>
+                <img src={photo5} className='w-full h-full object-contain rounded-xl object-cover'/>
             </div>
         </div>
     </div>

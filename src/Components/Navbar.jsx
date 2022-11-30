@@ -17,7 +17,7 @@ const handleClick=()=> {
       <div class="flex pl-96 space-x-14 justify-center items-center ">
         <div class="flex pl-64 justify-center items-center space-x-1  ">
           <CgProfile size={20} />
-         <Link to="/profile"><p>Login</p></Link>
+         <Link to="/profile"><p>Profile</p></Link>
         </div>
         {/*  */}
         <div class="">
@@ -25,12 +25,12 @@ const handleClick=()=> {
           onClick={handleClick}
             className={`p-2 bg-[#f5af9ee0] hover:text-slate-50 ease-in duration-300  rounded-full text-sm font-Arialn font-bold tracking-wider `}
           >
-            Switch-Theme
+            Home-Page
           </button> </Link>
         </div>
 
         <div class={`bg-slate-900 flex justify-center items-center w-12 h-12 `}>
-          <CgDetailsMore size={20} class="text-slate-200 " />
+         <CgDetailsMore size={20} class="text-slate-200 " />
         </div>
       </div>
     </div>

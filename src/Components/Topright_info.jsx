@@ -1,5 +1,5 @@
 import React from "react";
-import Med5 from "../Assets/images/Meditation5.jpg";
+import { Med5 } from "../Assets/images/Images";
 
 function Topright_info() {
   return (

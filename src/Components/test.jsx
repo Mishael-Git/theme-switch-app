@@ -1,17 +1,21 @@
-import React, {useState} from 'react'
-
-function Tool() {
-    const [changeColor, setChangeColor]= useState(false)
-     //function for handleClick
-  const handleClick=()=> {
-    setChangeColor(!changeColor)
-  }
+import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+function Test() {
   return (
-    <div className={`${(changeColor === true)?'bg-amber-600 ': 'bg-slate-900'}`}>
-        <button onClick={handleClick}
-         className={`rounded-full tracking-wider font-bold font-Arialn text-sm `}>CLICK ME</button>
-    </div>
+    <Swiper
+    spaceBetween={50}
+    slidesPerView={3}
+    onSlideChange={() => console.log('slide change')}
+    onSwiper={(swiper) => console.log(swiper)}
+  >
+    <SwiperSlide>Slide 1</SwiperSlide>
+    <SwiperSlide>Slide 2</SwiperSlide>
+    <SwiperSlide>Slide 3</SwiperSlide>
+    <SwiperSlide>Slide 4</SwiperSlide>
+    ...
+    </Swiper>
   )
 }
 
-export default Tool
+export default Test

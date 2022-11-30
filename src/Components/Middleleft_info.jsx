@@ -1,5 +1,5 @@
 import React from "react";
-import Med1 from "../Assets/images/Meditation1.jpg";
+import { Med1 } from "../Assets/images/Images";
 
 function MiddleLeftInfo() {
   return (

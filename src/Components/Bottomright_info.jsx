@@ -2,10 +2,10 @@ import React from "react";
 import { BiDollar } from "react-icons/bi";
 function Bottomright_info() {
   return (
-    <div className="flex   justify-end items-end   ">
+    <div className="flex   justify-end items-end  ">
       {/*  */}
       <div className='grid grid-cols-2 space-x-1'>
-      <div class="flex flex-col w-40 space-y-4 bg-[#060511] items-center justify-center">
+      <div class="flex flex-col w-40 space-y-4 bg-[#060511] items-center justify-center h-60">
         <h1 class="text-zinc-50 underline-offset-8 border-b-2  inline border-zinc-50">
           MONTHLY PLAN
         </h1>
@@ -17,7 +17,7 @@ function Bottomright_info() {
         </button>
       </div>
       {/*  */}
-      <div class="flex flex-col w-40 space-y-4 bg-[#060511] items-center justify-center">
+      <div class="flex flex-col w-40 space-y-4 bg-[#060511] items-center justify-center h-60">
         <h1 class="text-zinc-50 border-b-2  inline border-zinc-50">
           YEARLY PLAN
         </h1>

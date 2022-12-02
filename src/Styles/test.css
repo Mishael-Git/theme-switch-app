@@ -1,5 +1,7 @@
 .Class{
     background-color: #af5112;
     
-   
+    const handleClick=()=> {
+        setChangeTheme(!changeTheme)
+       }
 }

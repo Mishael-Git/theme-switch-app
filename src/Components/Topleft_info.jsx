@@ -1,13 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import {GoPrimitiveDot} from "react-icons/go"
 function Topleft_info() {
-  const [changeColor, setChangeColor]= useState(false)
-  //function for handleClick
-const handleClick=()=> {
- setChangeColor(!changeColor)
-}
+
   return (
-    <div class={`flex flex-col justify-start items-start w-full ${(changeColor === true)?' font-CircularStd ': ' '}`}>
+    <div class={`flex flex-col justify-start items-start w-full `}>
       <div class={`w-72 h-32  relative `}>
         <h1 class="font-extrabold text-xl">
           Mindfulness for Everyone,Anywhere
@@ -18,7 +14,6 @@ const handleClick=()=> {
           more about you
         </p>
         <button
-         onClick={handleClick}
         className={`p-2 bg-slate-900 rounded-full text-sm hover:text-slate-700 ease-out duration-300 text-slate-200 font-Arialn font-bold tracking-wider`}
           >
           Try for free

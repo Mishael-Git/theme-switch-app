@@ -1,13 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 
 function MiddlerightInfo() {
-  const [changeColor, setChangeColor]= useState(false)
-     //function for handleClick
-  const handleClick=()=> {
-    setChangeColor(!changeColor)
-  }
+  
   return (
-    <div class={`flex flex-col   items-end w-full  justify-end ${(changeColor === true)?'bg-slate-900 text-slate-50' : ' bg-[#fc7b26]  font-CircularSp'} `}>
+    <div class={`flex flex-col   items-end w-full  justify-end  `}>
       <div class='relative w-[68%]' >
       <h1 className=" font-extrabold text-xl">Meditate Together Online</h1>
       <p>Everything is Better When Shared including Meditation.</p>
@@ -18,7 +14,6 @@ function MiddlerightInfo() {
         habit.
       </p>
       <button 
-      onClick={handleClick}
       className={`p-2 bg-slate-900 rounded-full text-sm hover:text-slate-700 ease-out duration-300 text-slate-200 font-Arialn font-bold tracking-wider`}
           >
         Book Now

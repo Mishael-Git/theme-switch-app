@@ -28,7 +28,7 @@ function ProfileTraining() {
           />
         </div>
         <div>
-          <p className="font-semibold">WARRIOR-1-POSE</p>
+          <p className="font-semibold">WARRIOR</p>
           <p className="text-slate-500">2 days ago</p>
         </div>
         </div>
@@ -70,7 +70,7 @@ function ProfileTraining() {
           />
         </div>
         <div>
-          <p class="font-semibold">LOTUS-HAND-OVER-HEAD</p>
+          <p class="font-semibold">LOTUS-HAND</p>
           <p class="text-slate-500">a week ago</p>
         </div>
         </div>

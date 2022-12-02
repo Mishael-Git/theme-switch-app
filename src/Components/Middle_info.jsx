@@ -19,7 +19,7 @@ function Middle_info() {
         {/*  */}
         <div class=" flex-col w-full max-w-[20%] space-y-5 ">
           <div className="w-full h-40">
-            <img src={Med4} class="max-w-full w-full h-full object-center" />
+            <img src={Med4} class="max-w-full w-full h-full rounded-xl object-cover object-center" />
           </div>
 
           <h1 class="font-bold text-lg items-center text-center">
@@ -34,7 +34,7 @@ function Middle_info() {
         {/*  */}
         <div class=" flex-col w-full max-w-[20%] space-y-5">
           <div className="w-full h-40">
-            <img src={Med3} class="max-w-full w-full h-full object-center" />
+            <img src={Med3} class="max-w-full w-full h-full rounded-xl object-cover object-center" />
           </div>
           <h1 class="font-bold text-lg items-center text-center">
             Different Styles for All Ages and Levels
@@ -48,7 +48,7 @@ function Middle_info() {
         {/*  */}
         <div class=" flex-col w-full max-w-[20%] space-y-5">
           <div className="w-full h-40">
-            <img src={Med2} class="max-w-full w-full h-full object-center" />
+            <img src={Med2} class="max-w-full w-full h-full rounded-xl object-cover object-center" />
           </div>
           <h1 class="font-bold text-lg items-center text-center">
             LiveStream Classes From Anywhere

@@ -1,10 +1,9 @@
 import React from "react";
 import {TopLeft,TopRight,Middle,MiddleLeft,MiddleRight,BottomLeft,BottomRight} from "./Info";
 
-
 function Body() {
   return (
-    <div className="grid  relative justify-center items-center w-full h-full space-y-8 p-6">
+    <div className={`grid  relative pt-20 justify-center items-center w-full h-full space-y-8 p-6 `}>
       {/*  */}
       <div className={`px-56`}>
         <div className={`w-full flex flex-row `}>
